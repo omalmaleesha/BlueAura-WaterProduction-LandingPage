@@ -24,35 +24,25 @@ BlueAura is a modern water delivery service application designed to provide user
 - **Maps**: Custom map visualization for water quality data
 
 ## Installation
-    ```bash
-    git clone https://github.com/omalmaleesha/BlueAura-WaterProduction-LandingPage.git
 
-    npm install
-    npm run dev
-
-    http://localhost:3000
-
+```bash
+git clone https://github.com/omalmaleesha/BlueAura-WaterProduction-LandingPage.git
+cd BlueAura-WaterProduction-LandingPage
+npm install
+npm run dev
 
 my-app/
 ├── app/
-│   ├── page.tsx                # Main application page
-│   ├── layout.tsx              # Application layout
+│   ├── page.tsx                        # Main application page
+│   ├── layout.tsx                      # Application layout
 ├── components/
-│   ├── animated-section.tsx    # Animated section component
-│   ├── water-quality-calculator.tsx # Water quality calculator
-│   ├── water-quality-map.tsx   # Water quality map
+│   ├── animated-section.tsx           # Animated section component
+│   ├── water-quality-calculator.tsx   # Water quality calculator
+│   ├── water-quality-map.tsx          # Water quality map
 │   ├── water-source-visualization.tsx # Water source visualization
-│   ├── ui/                     # Reusable UI components
+│   ├── ui/                             # Reusable UI components
 ├── public/
-│   ├── images/                 # Static images
+│   ├── images/                         # Static images
 ├── styles/
-│   ├── globals.css             # Global styles
-├── [package.json]              # Project dependencies and scripts
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For any inquiries, please contact us at:
-
-Email: omalmaleesha03@gmail.com
+│   ├── globals.css                     # Global styles
+├── package.json                        # Project dependencies and scripts
